@@ -1,0 +1,19 @@
+vlan for normal sw
+
+
+cisco
+en
+cisco
+conf t
+
+
+vlan 120
+name FIN-SW
+exit
+int range fa0/1-2
+switchport mode trunk
+exit
+int range fa0/3-24
+switchport mode access
+switchport access vlan 120
+exit

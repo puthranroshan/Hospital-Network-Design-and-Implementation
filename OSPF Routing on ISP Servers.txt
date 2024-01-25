@@ -1,0 +1,10 @@
+ospf isp router
+
+router ospf 10
+
+network 195.136.17.4 0.0.0.3 area 0
+network 195.136.17.12 0.0.0.3 area 0
+
+
+ex
+

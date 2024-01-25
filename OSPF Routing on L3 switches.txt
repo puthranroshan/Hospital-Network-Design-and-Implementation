@@ -1,0 +1,16 @@
+ospf l3sw routing
+
+ip routing 
+router ospf 10
+network 192.168.101.128 0.0.0.31 area 0
+network 192.168.101.160 0.0.0.31 area 0
+network 192.168.101.192 0.0.0.31 area 0
+network 192.168.101.224 0.0.0.31 area 0
+network 192.168.102.0 0.0.0.31 area 0
+network 192.168.102.32 0.0.0.31 area 0
+
+network 198.162.102.96 0.0.0.3 area 0
+
+ex
+
+ip route 0.0.0.0 0.0.0.0 198.162.102.98

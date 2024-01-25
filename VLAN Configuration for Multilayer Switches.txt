@@ -1,0 +1,12 @@
+vlan for multisw
+
+vlan 80
+vlan 90
+vlan 100
+vlan 110
+vlan 120
+vlan 130
+exit
+int range gig1/0/2-7
+switchport mode trunk
+exit
